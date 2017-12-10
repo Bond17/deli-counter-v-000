@@ -22,6 +22,7 @@ if line == []
   puts "Welcome, #{person}. You are number 1 in line"
 else
   line << person
+  puts "Welcome, #{person}. You are number #{array.length} in line"
 end
 end
 
