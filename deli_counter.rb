@@ -8,7 +8,7 @@ else
   cust.each  do |person|
     cust[i]="#{(i+1)}. #{person} "
     i+=1
-    cust.strip
+
   end
   puts "The line is currently #{cust.join}"
 end
