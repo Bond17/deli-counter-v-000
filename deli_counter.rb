@@ -19,10 +19,10 @@ end
 def take_a_number (line, person)
 if line == []
   line[0]=person
-  puts "Welcome, #{person}. You are number 1 in line"
+  puts "Welcome, #{person}. You are number 1 in line."
 else
   line << person
-  puts "Welcome, #{person}. You are number #{array.length} in line"
+  puts "Welcome, #{person}. You are number #{array.length} in line."
 end
 end
 
