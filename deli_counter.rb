@@ -27,5 +27,7 @@ end
 end
 
 def now_serving (line)
-
+  if line == []
+    puts "The line is currently empty."
+  else
 end
