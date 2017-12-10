@@ -17,9 +17,13 @@ end
 end
 
 def take_a_number (line, person)
-
+if line == []
+  line[0]=person
+else
+  line << person
+end
 end
 
 def now_serving
-  
+
 end
