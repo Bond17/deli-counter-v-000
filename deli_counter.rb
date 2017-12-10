@@ -1,7 +1,7 @@
 # Write your code here.
 
 def line (cust)
-if cust == nil
+if cust == []
   puts "The line is currently empty."
 end
 end
