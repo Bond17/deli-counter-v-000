@@ -10,6 +10,7 @@ else
     i+=1
 
   end
-  puts "The line is currently #{cust.join}"
+  puts "The line is currently: #{cust.join}"
 end
+
 end
