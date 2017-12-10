@@ -12,7 +12,7 @@ else
   end
   cust.join
   cust.strip
-  puts "The line is currently: #{cust.join}"
+  puts "The line is currently: #{cust}"
 end
 
 end
