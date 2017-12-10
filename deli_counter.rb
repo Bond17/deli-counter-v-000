@@ -10,6 +10,8 @@ else
     i+=1
 
   end
+  cust.join
+  cust.strip
   puts "The line is currently: #{cust.join}"
 end
 
