@@ -2,6 +2,6 @@
 
 def line (cust)
 if cust == nil
-  puts "the line"
+  puts "The line is currently empty."
 end
 end
