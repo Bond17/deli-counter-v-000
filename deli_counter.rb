@@ -11,8 +11,7 @@ else
 
   end
   cust = cust.join
-  cust.strip
-  puts "The line is currently: #{cust}"
+  puts "The line is currently: #{cust.strip}"
 end
 
 end
